@@ -1,0 +1,230 @@
+/* General Styling */
+.text-center {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+.text-white {
+  color: white; /* Ensures the text is white */
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem; /* Reduce spacing between items */
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem; /* Additional margin to ensure spacing */
+}
+
+.container-fluid {
+  margin-top: 10px; /* Adjust as necessary for spacing */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px; /* Adds padding to prevent the button from being at the edge */
+}
+
+/* Specific Sections */
+
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  margin-top: 7rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footnote {
+  font-size: 0.875rem; /* Smaller text size */
+  color: gray; /* Gray text color */
+}
+
+.about-background-container {
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+  background-image: url('images/about-dag.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  color: white;
+  margin-left: 20px; /* Adjust as necessary */
+  max-width: 600px; /* Adjust as necessary */
+}
+
+.firstlovebg-container {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+  background-image: url('images/first-love-center-picture.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the text is horizontally centered */
+}
+
+.background-container {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+  background-image: url('images/c363006a-d2fa-45ba-a8cc-a3a1cfe24fc6.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is spaced */
+  align-items: center;
+  position: relative;
+}
+
+.dagsermons-container-fluid {
+  margin-bottom: 10px; /* Adjust as necessary for spacing */
+}
+
+.music-section {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  background-image: url('images/1500x500-1.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers items vertically */
+  padding-right: 30px; /* Adds padding for right side */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.giving-section {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+  background-image: url('images/jeremy-bishop-G9i_plbfDgk-unsplash-scaled.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the text is horizontally centered */
+}
+
+.flccollective-section {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  background-image: url('images/flc-collective-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.understanding-section {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  background-image: url('images/understanding-campaign-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the text is horizontally centered */
+}
+.healingjesustv-section {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  background-image: url('images/banner-hjc-background-orange-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the text is horizontally centered */
+}
+.text-black {
+  color: black;
+}
+
+.becausewecan {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  background-image: url('images/because-we-can-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensures the text is horizontally centered */
+}
+
+.becausewecan .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.becausewecan .col-md-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-section {
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+  background-image: url('images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+  .connect-section, .footer {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .connect-section .logo {
+    margin: 60px;
+  }
+  .footer .social-icons img {
+    width: 40px;
+    margin: 10px;
+  }
+
+
